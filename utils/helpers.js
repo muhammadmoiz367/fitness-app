@@ -1,6 +1,8 @@
 import React from 'react';
 import {View} from 'react-native';
-import {MaterialIcons, MaterialCommunityIcons, FontAwesome } from 'react-native-vector-icons';
+import FontAwesome from 'react-native-vector-icons/dist/FontAwesome';
+import MaterialIcons from 'react-native-vector-icons/dist/MaterialIcons';
+import MaterialCommunityIcons from 'react-native-vector-icons/dist/MaterialCommunityIcons';
 import {white} from './colors';
 
 export function isBetween (num, x, y) {
@@ -52,7 +54,7 @@ export function isBetween (num, x, y) {
         max: 50,
         unit: 'miles',
         step: 1,
-        type: 'steppers',
+        type: 'stepper',
         getIcon(){
           return(
             <View>
@@ -66,7 +68,7 @@ export function isBetween (num, x, y) {
         max: 100,
         unit: 'miles',
         step: 1,
-        type: 'steppers',
+        type: 'stepper',
         getIcon(){
           return(
             <View>
@@ -80,7 +82,7 @@ export function isBetween (num, x, y) {
         max: 9900,
         unit: 'meters',
         step: 100,
-        type: 'steppers',
+        type: 'stepper',
         getIcon(){
           return(
             <View>

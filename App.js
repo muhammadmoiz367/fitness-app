@@ -1,11 +1,11 @@
 import React from 'react';
 import {StyleSheet, View, Text } from 'react-native';
-import AddEntry from './components/addEntry';
+import AddEntry from './views/addEntry';
 
 function App (){
-  console.log('app running')
   return (
       <View>
+        <Text>Fitness app</Text>
         <AddEntry />
       </View>
   );
